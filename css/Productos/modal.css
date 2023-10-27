@@ -1,3 +1,24 @@
+.modal-content {
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.modal-title {
+  font-size: 24px;
+  color: #333;
+}
+
+.modal-body {
+  padding: 20px;
+}
+
+.modal-footer {
+  background-color: #f5f5f5;
+  border-top: 1px solid #ddd;
+  border-radius: 0 0 10px 10px;
+  padding: 10px 20px;
+}
 .btn-shape {
     transition: all .3s linear;
     width: 168px;
@@ -77,3 +98,19 @@
       transform: translate3d(0, 0, 0) translateZ(0);
     }
   }
+
+  /* Estilo por defecto para el botón de cerrar */
+.close {
+  font-size: 24px;
+  color: #333;
+  background: transparent;
+  border: none;
+  transition: color 0.3s, transform 0.3s;
+}
+
+/* Estilo para el botón de cerrar en hover */
+.close:hover {
+  color: #ff0000; /* Cambia el color a rojo al hacer hover */
+  transform: scale(1.2); /* Escala el icono al hacer hover */
+  cursor: pointer; /* Cambia el cursor a una mano */
+}
