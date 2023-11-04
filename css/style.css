@@ -502,5 +502,23 @@
 }
 
 .copyright a:hover {
-    color: #FFFFFF !important;
+    color: #FFFFFF !important
 }
+
+.card {
+    width: 300px;
+    margin: 10px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border: 1px solid #88b44e; /* Agregamos un borde de color azul */
+    display: inline-block;
+  }
+  
+  .card h2 {
+    margin: 0;
+  }
+  
+  .card p {
+    margin: 10px 0;
+  }
